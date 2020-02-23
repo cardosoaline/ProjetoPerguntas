@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Guia Perguntas</title>
+        </head>
+ <body>
+    <h1>Guia de Perguntas</h1>
+
+    <br>
+
+    <h3>Lista de Perguntas</h3>
+
+    <p>nome:<%= nome %></p>
+
+    <p>Linguagem:<%= lang %></p>
+
+    <p>Empresa:<%= empresa %></p>
+
+    <p>Inscritos: <%= inscritos %></p>
+
+
+
+    <% if(msg == true){ %>
+    <h3>Está é uma mensagem de erro!</h3>
+    <%} else {%>
+        <h3>Nenhum erro!</h3>
+        <%}%>
+
+ </body>    
+
+</html>

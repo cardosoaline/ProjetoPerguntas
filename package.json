@@ -1,0 +1,26 @@
+{
+  "name": "projetoperjuntas",
+  "version": "1.0.0",
+  "description": "Projeto afim de relembrar conhecimento em node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cardosoaline/ProjetoPerguntas.git"
+  },
+  "author": "Aline Cardoso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cardosoaline/ProjetoPerguntas/issues"
+  },
+  "homepage": "https://github.com/cardosoaline/ProjetoPerguntas#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
